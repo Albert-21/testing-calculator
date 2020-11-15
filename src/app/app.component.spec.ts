@@ -22,7 +22,6 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('testing-calculator');
   });
 
-
   xit('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
