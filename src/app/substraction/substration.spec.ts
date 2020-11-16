@@ -1,7 +1,7 @@
 
 import { substration  } from "./substration";
 
-describe('addition uni tests', () => {
+describe('substration uni tests', () => {
     
     it('Should subs 0 - 2 = -2' , () => {
         //Pattern AAA (Arrage - Act - Assert)
