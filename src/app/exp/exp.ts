@@ -1,3 +1,6 @@
-export function exp(oper1,expo){
-    return Math.pow(oper1,expo)  
+export function exp(base,expo){
+    //Refactoring
+    let pow = 0;
+    pow= Math.pow(base,expo)
+    return pow;
 }
