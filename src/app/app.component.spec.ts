@@ -28,5 +28,4 @@ describe('AppComponent', () => {
     const compiled = fixture.nativeElement;
     expect(compiled.querySelector('.content span').textContent).toContain('testing-calculator app is running!');
   });
-  
 });
