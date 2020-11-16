@@ -58,5 +58,19 @@ describe('addition uni tests', () => {
         expect(result).toBe(2.7);
 
     })
+
+    it('Should add 0.0 + 0.0 = 0.0' ,() => {
+        //Pattern AAA (Arrage - Act - Assert)
+
+        //Arrange
+        let result = 0;
+
+        //Act
+        result = addition(0,0);
+
+        //Assert
+        expect(result).toBe(0);
+
+    })
     
 })
